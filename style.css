@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+.header{
+    width: 100%;
+    background-color: #FF9933;
+    display:flex;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    position: fixed;
+    z-index: 2;
+    
+}
+body{
+    background-color: #f2f2f2;
+    line-height: 1.2;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;  
+    text-align: center;
+    gap: 40px;
+   
+    }
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items:start ;
+    flex-grow: 2;
+    position: relative;
+    left: 90px;
+}
+.nav{
+    display: flex;
+    flex-grow:1;
+    justify-content: space-evenly;
+    font-size:17px;
+}
+a:hover{
+    color: grey;
+}
+
+.landpage img{
+    width: 100%;
+}
+.home-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 25px;
+    background-color:#F5F5DC;
+    color: #333333;
+
+   
+}
+.home-container h2{
+    padding: px;
+    font-size: 30px;
+    color: #138808;
+}
+.home-container p{
+    padding:    10px;
+}
+.home-container h5  {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color:#138808;
+}
+.home-container li{
+    padding: 10px;
+}
+.empty{
+    padding: 50px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+ /* Historical Achievements */
+ .histort-img img{
+    width: 100%;
+   
+ }
+.history-absolute{
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.history-absolute h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    z-index: 1;
+}
+
+
+
+.history-box{
+  
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+   
+}
+.history-box1{
+    padding: 45px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+
+.res-history-box{
+    columns: 2;
+    
+}
+.res-history-box1{
+    display: flex;
+    flex-direction: column;
+    padding: 155px;
+    justify-content: center;
+}
+.res-history-box2 img{
+    height: 450px;
+    width: 700px;
+}
+.hisyory-end{
+    padding: 30px 80px;
+    text-align: justify;
+    color: #138808;
+}
+
+
+
+/* Modern-Achievements */
+.modern-img img{
+    width: 100%;
+}
+.modern-absolute{
+    position: relative;
+    top: 225px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#Modern-Achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.achievement-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.achievement-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.achievement-box h2 {
+    font-size: 1.5em;
+    
+    margin-bottom: 10px;
+}
+
+.achievement-box p {
+    font-size: 1em;
+    color: #555;
+}
